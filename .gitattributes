@@ -1,0 +1,2 @@
+# Preserve the exact UCI source bytes for the audited SHA-256 on every platform.
+data/Daily_Demand_Forecasting_Orders.csv -text

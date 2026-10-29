@@ -1,0 +1,49 @@
+{
+  "source_observations": 60,
+  "first_training_target_observation": 4,
+  "last_training_target_observation": 50,
+  "training_examples": 47,
+  "holdout_examples": 10,
+  "holdout_observations": [
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60
+  ],
+  "features": [
+    "lag_1",
+    "lag_2",
+    "lag_3"
+  ],
+  "scores": [
+    {
+      "method": "last_observation",
+      "mae_orders": 44572.3,
+      "rmse_orders": 56989.237067186645
+    },
+    {
+      "method": "linear_regression",
+      "mae_orders": 46172.70962858833,
+      "rmse_orders": 59811.13097325247
+    },
+    {
+      "method": "trailing_mean_3",
+      "mae_orders": 50305.50000000001,
+      "rmse_orders": 61185.460079354
+    }
+  ],
+  "holdout_lowest_mae_method": "last_observation",
+  "holdout_model_intercept": 278099.6013368665,
+  "weekday_cycle_breaks": [
+    33,
+    40
+  ],
+  "evaluation": "Fixed training fit; sequential one-step inputs use only already observed prior totals. Source order assumed, exact dates unverified. No hyperparameter tuning; lowest-error comparison is descriptive, not deployment selection.",
+  "run_seconds": 0.775
+}

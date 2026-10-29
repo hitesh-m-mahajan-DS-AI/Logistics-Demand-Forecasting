@@ -1,0 +1,19 @@
+{
+  "source_url": "https://archive.ics.uci.edu/static/public/409/daily%2Bdemand%2Bforecasting%2Borders.zip",
+  "csv_sha256": "adf8dda021beae76b13b1cbb5b3c075d064f03b3353a711c1ddc357c6f89e924",
+  "rows": 60,
+  "license": "CC BY 4.0",
+  "doi": "https://doi.org/10.24432/C5BC8T",
+  "periods_are_thousands_separators": true,
+  "target_equals_type_A_plus_B_plus_C": true,
+  "target_equals_nonurgent_plus_urgent_plus_fiscal": true,
+  "weekday_cycle_breaks_at_observations": [
+    33,
+    40
+  ],
+  "week_field_decreases_at_observations": [
+    20,
+    40
+  ],
+  "ordering_note": "UCI labels this time-series data. File order is preserved, but there are no dates and two weekday-cycle breaks; consecutive business-day chronology is not verified. All horizons are next observation under the source-order assumption."
+}
